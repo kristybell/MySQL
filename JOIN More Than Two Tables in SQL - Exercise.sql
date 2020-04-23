@@ -8,7 +8,7 @@ SELECT
     d.dept_name
 FROM
     employees e
-        JOIN
+        JOIN 
     titles t ON t.emp_no = e.emp_no
         JOIN
     dept_manager m ON e.emp_no = m.emp_no
